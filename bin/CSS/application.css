@@ -1,0 +1,256 @@
+.background{
+	-fx-background-color: black;
+}
+.backgroundStageLogin{
+	-fx-background-color: #1d1d1d;
+	-fx-background-radius: 15;
+	-fx-border-radius:15;
+	-fx-border-width:2;
+	-fx-border-color: #a32900;
+	-fx-opacity: 0.99;
+}
+.backgroundPreConfigStage{
+	-fx-background-color: #1d1d1d;
+	-fx-background-radius: 15;
+	-fx-border-radius:15;
+	-fx-border-width:2;
+	-fx-border-color: #a32900;
+	-fx-opacity: 0.99;
+}
+.backgroundChoiceStage{
+	-fx-background-color: #1d1d1d;
+	-fx-background-radius: 15;
+	-fx-border-radius:15;
+	-fx-border-width:2;
+	-fx-border-color: #a32900;
+	-fx-opacity: 0.99;
+}
+.backgroundStageSign{
+	-fx-background-color: #1d1d1d;
+	-fx-background-radius: 15;
+	-fx-border-radius:15;
+	-fx-border-width:2;
+	-fx-border-color: #a32900;
+	-fx-opacity: 1;
+}
+.backgroundStageVoD{
+	-fx-background-color: black;
+	-fx-background-radius: 17;
+	-fx-border-radius:15;
+	-fx-border-width:2;
+	-fx-border-color: #a32900;
+	-fx-opacity: 0.95;
+}
+.label{
+	-fx-text-fill: white;
+	-fx-font-size: 15;
+}
+.labelTitle{
+	-fx-text-fill: #a32900;
+	-fx-font-size: 30;
+}
+.labelTitle2{
+	-fx-text-fill: #a32900;
+	-fx-font-size: 20;
+}
+.label2{
+	-fx-text-fill: #a32900;
+	-fx-font-size: 12;
+	-fx-underline: true;
+}
+.label2:hover{
+	-fx-text-fill: #a32900;
+	-fx-font-weight: bold;
+	-fx-underline: true;
+}
+.labelNotification{
+	-fx-text-fill: #a32900;
+	-fx-font-size: 15;
+	-fx-font-weight: bold;
+}
+.btnSettings{
+	-fx-background-color: #2d2d2d;
+     -fx-background-radius:5;
+	}
+.btnSettings:hover{
+	-fx-background-color: #a32900;
+	}
+.buttonsSettings{
+	-fx-background-color: #2d2d2d;
+    -fx-background-radius:0;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+.buttonsSettings:hover{
+	-fx-background-color: #a32900;
+	-fx-font-size: 20;
+	-fx-text-fill: black;
+}
+.btnClose{
+	-fx-background-color: #2d2d2d;
+    -fx-background-radius: 5 5 0 0;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+}
+.btnClose:hover{
+	-fx-background-color: #a32900;
+	-fx-background-radius: 5 5 0 0;
+	-fx-font-size: 20;
+	-fx-text-fill: black;
+}
+.progVoD{
+	-fx-background-color: #2d2d2d;
+	-fx-background-radius: 5;
+	-fx-font-size: 20;
+	-fx-text-fill: white;
+	-fx-text-alignment: left;
+}
+.progVoD:hover{
+	-fx-background-color: #1d1d1d;
+}
+.labelMediaControl{
+	-fx-font-size: 12;
+    -fx-text-fill: white;
+}
+.playPauseButton{
+	-fx-background-color: #2d2d2d;
+}
+.slider .thumb1:hover {
+    -fx-background-color: -fx-hover-base;
+}
+
+.slider .thumb {   
+    -fx-background-color: #2d2d2d;
+    -fx-background-radius: 5; 
+    -fx-padding: 0.6em; 
+}
+.slider .track {
+    -fx-background-color: #a32900;  
+    -fx-background-radius: 5;
+    -fx-padding: 0.3em; 
+}
+.choice-box{
+	-fx-pref-width: 280
+}
+.choice-box .label{
+	-fx-text-fill: black;
+}
+.btnNext{
+	-fx-background-color: #2d2d2d;
+    -fx-background-radius: 0 15 15 0;
+    -fx-opacity: 0.8;
+}
+.btnNext:hover{
+	-fx-background-color: grey;
+    -fx-background-radius: 0 15 15 0;
+    -fx-opacity: 0.8;
+}
+.btnPrev{
+	-fx-background-color: #2d2d2d;
+    -fx-background-radius: 15 0 0 15;
+    -fx-opacity: 0.8;
+}
+.btnPrev:hover{
+	-fx-background-color: grey;
+    -fx-background-radius: 15 0 0 15;
+    -fx-opacity: 0.8;
+}
+.choice-box{
+	-fx-border-color: #a32900;
+}
+.choice-box .label{
+	-fx-background-color: #2d2d2d;
+	-fx-text-fill: white;
+    -fx-font-size: 20;
+}
+.choice-box .context-menu {
+    -fx-background-color: #2d2d2d;
+}
+.choice-box .context-menu .label {
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-background-color: transparent;
+}
+#choice-box-menu-item:focused  {  
+ -fx-background-color: #a32900 ;  
+}
+
+
+
+
+/******** SCROLL-BAR *********/
+.scroll-bar:horizontal .thumb {
+	-fx-background-color:#2d2d2d;
+	-fx-background-insets: 0, 1, 2;
+	-fx-background-radius: 0.3em; /* makes sure this remains circular */
+}
+.scroll-bar:horizontal .thumb:hover {
+	-fx-background-color:#a32900;
+	-fx-background-insets: 0, 1, 2;
+	-fx-background-radius: 0.3em; /* makes sure this remains circular */
+}
+.scroll-bar:horizontal .track {
+	-fx-background-color: grey;
+	-fx-background-insets:  0, 1;
+	-fx-background-radius: 0.3em; /* makes sure this remains circular */
+}
+.scroll-bar .increment-button {
+	-fx-background-color: #2d2d2d;
+	-fx-background-insets:  0, 1;
+	-fx-padding: 0.4em; 
+}
+.scroll-bar .increment-button:hover {
+	-fx-background-color: #a32900;
+	-fx-padding: 0.4em;
+}
+.scroll-bar .decrement-button {
+	-fx-background-color: #2d2d2d;
+	-fx-background-insets:  0, 1;
+	-fx-padding: 0.4em; 
+}
+.scroll-bar .decrement-button:hover {
+	-fx-background-color: #a32900;
+	-fx-background-insets:  0, 1;
+	-fx-padding: 0.4em; 
+}
+.scroll-bar:horizontal .increment-arrow {
+	-fx-background-color: white;
+	-fx-background-insets: 1 0 -1 0, 0;
+	-fx-padding: 0.4em; /* 6 4 0 0 */
+	-fx-shape: "M 4 0 L 0 -3 L 0 3 z";
+}
+.scroll-bar:horizontal .increment-arrow:hover {
+	-fx-background-color: white;
+	-fx-background-insets: 1 0 -1 0, 0;
+	-fx-padding: 0.4em; /* 6 4 0 0 */
+	-fx-shape: "M 4 0 L 0 -3 L 0 3 z";
+}
+.scroll-bar:horizontal .decrement-arrow {
+	-fx-background-color: white;
+	-fx-background-insets: 1 0 -1 0, 0;
+	-fx-padding: 0.4em; /* 6 4 0 0 */
+	-fx-shape: "M 0 0 L 4 -3 L 4 3 z";
+}
+scroll-bar:horizontal .decrement-arrow:hover {
+	-fx-background-color: black;
+	-fx-background-insets: 1 0 -1 0, 0;
+	-fx-padding: 0.4em; /* 6 4 0 0 */
+	-fx-shape: "M 0 0 L 4 -3 L 4 3 z";
+}
+.scroll-bar:disabled {
+	/*-fx-opacity: -fx-disabled-opacity;*/
+}
+.scroll-pane { 
+	-fx-background-color: black;
+	-fx-background-radius: 14;
+	-fx-opacity: 1;
+	-fx-border-radius:15;
+	-fx-border-width:2;
+	-fx-border-color: #a32900;
+}
+.scroll-pane > .viewport  { 
+	-fx-background-color: black;
+	-fx-background-radius: 15;
+	-fx-opacity: 1;
+	
+}
